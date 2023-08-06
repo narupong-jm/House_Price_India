@@ -17,6 +17,7 @@ tf_data <- dataset %>%
   select(Date, `number of bedrooms`,`number of bathrooms`,`number of floors`,`number of views`,
          `living area`,`grade of the house`,`Area of the house(excluding basement)`,`Area of the basement`,
          `Distance from the airport`,Price) %>%
+  # Create New column
   mutate(price_log = log(Price))
 View(tf_data)
 
