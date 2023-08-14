@@ -1,4 +1,4 @@
-# House_Price_India
+# House Price prediction by classical ML using caret in R
 This is a homework in essential machine learning class of data science bootcamp#8 by Mr.Kasidis Satangmongkol who is admit datarockie page.
 
 ## Instruction
